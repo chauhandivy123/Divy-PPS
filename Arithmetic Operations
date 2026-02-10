@@ -1,18 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int A=7;
-    int B=9;
-    int C=A+B;
-    int D=A-B;
-    int E=A*B;
-    int F=A/B;
-    int G=A%B;
-    
-    printf("%d\n",C);
-    printf("%d\n",D);
-    printf("%d\n",E);
-    printf("%d\n",F);
-    printf("%d\n",G);
+    int a, b;
+    printf("Enter the value of a and b");
+    scanf("%d %d", &a , &b);
+    printf("The Addition of a and b is %d\n", a + b);
+    printf("The Substraction of a and b is %d\n", a - b);
+    printf("The Multiplication of a and b is %d\n", a * b);
+    printf("The division of a and b is %d\n", a / b);
+    printf("The modulo of a and b is %d\n", a % b);
     return 0;
 }
