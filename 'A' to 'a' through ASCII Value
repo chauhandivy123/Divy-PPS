@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+    char ch;
+    printf("Enter capital letter\n");
+    scanf("%c", &ch);
+    
+    if(ch >= 'A' && ch <='Z')
+        {
+            ch = ch + 32;
+            printf("Small letter =%c\n", ch);
+        }
+    else 
+        {
+            printf("Wrong Input\n");
+        }
+       
+    return 0;
+}
